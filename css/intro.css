@@ -1,0 +1,51 @@
+body {
+  background-color: cyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+/*
+.simple-selector {
+  font-weight: bold;
+}
+.selector {
+  color: red;
+}
+.sub-title {
+  background-color: white;
+}
+#attribute-selector{
+color:blueviolet
+}
+*{color:maroon
+
+}
+.selector,
+p,
+{
+ bac
+}
+*/
+
+ul h3 {
+  color: black;
+}
+#phoenix {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+#bmx {
+  background-color: white;
+}
+/*ORDER OF SPECIFICITY*/
+
+/*Considering on where yove written your CSS*/
+/* 1 - Inline CSS*/
+/* 2 - inline css*/
+/* 3 - external css*/
+
+/* ******* considering th eselector used ******* */
+
+/* 1 - id selector */
+/* 2 - class selector */
+/* 3 - element sector */

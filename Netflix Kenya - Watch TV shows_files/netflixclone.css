@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Netflix Sans;
+    src: url(./NetflixSans-Regular\ \(1\).otf);
+}
+body{
+    font-family: Netflix Sans
+}
+.main-bg{
+   background-image: url(./mbi.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+/*
+.main-bg::before{
+    content: "Pseudo Element";
+    color: white;
+    position: absolute;
+   
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px 
+
+
+}*/
+.backdrop{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.9)
+   
+ 
+
+
+    )
+
+}
+
+.header{
+    display: flex;
+justify-content: space-between;
+padding: 20px 100px;
+    
+}
+.himg{
+    height:150px;
+    padding: 10px 50px;
+}
+.hill{
+     background-color: #e50914;
+     color:white;
+     display: block;
+     border-radius: 3px;
+     height:fit-content;
+     width: fit-content;
+     text-decoration:none;
+     position: relative;
+     left: 90%;
+     top: 50%
+}
+.intro{
+    color: white;
+    text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+.intro h1{
+    font-size:40px;
+    margin: 0%;
+}
+.intro p:first-of-type{
+    font-weight: 500;
+    font-size: 25px;
+}
+

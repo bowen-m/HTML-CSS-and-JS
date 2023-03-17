@@ -1,0 +1,72 @@
+.card{
+width: 400px;
+height: 250px;
+border-radius: 6px;
+background-image: url(./eberhard-grossgasteiger-HDxsIFHz4TI-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+position: relative;
+
+
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 72%;
+    bottom: 45%;
+    }
+.bank-name{
+color: white;
+position:absolute;
+left:130px;
+
+
+}
+
+.holder-name{
+    color:white;
+    position: relative;
+   top: 20%;
+   left: 5%;
+   letter-spacing: 4px;
+   font-size: 20px;
+  
+}
+
+.account-number{
+   color: white;
+position: relative;
+left: 37%;
+top: 50%;
+letter-spacing: 5px;
+
+}
+
+.expiry-date{
+    color:white;
+    position:absolute;
+    top: 69%;
+    left: 4%;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

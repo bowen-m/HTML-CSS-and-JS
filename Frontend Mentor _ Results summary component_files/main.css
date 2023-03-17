@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "our-font";
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "our-font", sans-serif;
+}
+
+.intro {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px 30px;
+  text-align: center;
+  color: white;
+}
+.intro h1 {
+  opacity: 0.7;
+}
+.rounded-bg {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.rounded-bg p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+.rounded-bg p:last-child {
+  opacity: 0.7;
+}
+.intro-text {
+  opacity: 0.7;
+  margin: 0px auto;
+}
+/*summary section*/
+.summary {
+  padding: 50px 30px;
+}
+.summary h1 {
+  color: hsl(224, 30%, 27%);
+}
+.category {
+ border: 10px red;
+ 
+}
+.btn {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 18px;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 30px;
+}

@@ -1,0 +1,56 @@
+/*.button {
+  padding: 100px 40px;
+  font-size: 22px;
+  margin: 40px;
+  color: black;
+  background-color: green;
+  border: none;
+  transition: background-color 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: red;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(200deg);
+  }
+  30% {
+    background-color: yellow;
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    background-color: green;
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+}
+*/
+.break {
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+ 
+}
+.break p{
+animation-iteration-count: infinite;
+animation-name: slide-left;  
+animation-duration: 5s;
+animation-timing-function: linear;
+
+
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-65%)
+
+  }
+}

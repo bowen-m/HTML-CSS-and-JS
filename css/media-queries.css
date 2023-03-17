@@ -1,0 +1,23 @@
+.container{
+    background-color: blue;
+    justify-content:space-around;
+    display: flex;
+
+}
+.box{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+@media screen and (min-width:768px) {
+    .box{
+        background-color: rgb(255, 0, 0);
+    }
+}
+@media screen and (max-width:500px){
+    .container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+}

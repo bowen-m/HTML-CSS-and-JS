@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital@0;1&family=Stint+Ultra+Condensed&family=Zeyada&display=swap");
+html {
+  font-size: 20px;
+}
+
+/* download the font and use the @fontface rule to import the font and use it*/
+
+body {
+  background-color: beige;
+  font-size: 30px;
+  font-family: zeyada, sans-serif;
+  font-weight: bolder;
+  font-style: oblique;
+  text-align: right;
+  text-decoration: underline;
+}
+/*em units are relative to the parent's element*/
+p {
+  font-size: 1em;
+  line-height: 2cm;
+  letter-spacing: 2px;
+}
+div {
+  font-size: 20px;
+  color: rgb(0, 0, 10);
+}
+
+/*rem units are reltive to the root element*/
+
+span {
+  font-size: 2em;
+}
+a {
+  font-size: 60px;
+  
+}
+
+/*!--the box model--*/
+/*!--position--*/
+/*!--flex and grid--*/

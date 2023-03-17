@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Variable;
+  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+body {
+  padding: 16px 20px;
+  font-family: "variable";
+  backgroundcolor: hsl(205, 33%, 90%);
+}
+img {
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  background-color: white;
+  padding: 16px 20px;
+  margin-top: 20px auto 0px;
+}
+header h1 {
+  color: hsl(224, 21%, 14%);
+  font-size: 26px;
+  font-weight: bold;
+}
+.not-count {
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+header button {
+  border: none;
+  background-color: transparent;
+  color: hsl(219, 12%, 42%);
+  font-size: 1rem;
+}
+header button:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+/*Notifications*/
+.notificatins {
+  max-width: 600px;
+  background-color: white;
+  padding: 16px 20px;
+  margin-top: 20px auto 0px;
+}
+.notification {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 16px;
+  padding: 16px;
+  background-color: hsl(210, 60%, 98%);
+  margin: 8px;
+  border-radius: 8px;
+  color: hsl(219, 12%, 42%);
+}
+.notification.active {
+  background-color: hsl(205, 33%, 90%);
+}
+.notification-text .user {
+  font-weight: bold;
+  color: initial;
+}
+.notification-text .user:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.notification-text .post {
+  color: hsl(220, 4%, 15%);
+}
+.notification-text .post:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.notification-text .group {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(219, 85%, 26%);
+}
+.notification-text .group:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.not-dot {
+  color: hsl(1, 90%, 64%);
+  font-size: 23px;
+}
+.notification-text .time {
+  color: hsl(219, 14%, 63%);
+}
+.notification-text .message {
+  border: 1px solid hsl(219, 14%, 63%);
+  border-radius: 5px;
+  padding: 16px 20px;
+}
+.notification.picture-comment {
+  grid-template-columns: 15% 62% 15%;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    margin: 40px auto 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .notifications {
+    margin: 0px auto 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

@@ -1,0 +1,21 @@
+img{
+    width:300px;
+    height:200px
+}
+
+.flex-container {
+    width: 300px;
+    border: 2px green;
+  
+    
+}
+.flex-container{
+    border: 2px red;
+    display:flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+
+}
